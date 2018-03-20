@@ -1,5 +1,3 @@
-@import './breakpoints';
-
 :root {
   --primary-color: #111111;
   --primary-fade-color: #555555;
@@ -7,8 +5,8 @@
   --secondary-color: #fefefe;
   --secondary-fade-color: #cccccc;
 
-  --action-color: #3b88ca;
-  --action-hover-color: #085597;
+  --action-color: #f9bdaa;
+  --action-hover-color: #f3a993;
 
   --success-color: #6aca6a;
   --success-hover-color: #379737;

@@ -6,11 +6,13 @@
   TODO: maybe change naming to button--ui- and button--color- ?
 */
 
+.u--autostyle button,
 .button {
   @apply --default-typo;
   cursor: pointer;
 }
 
+.u--autostyle button:hover,
 .button:hover {
   color: var(--action-color);
 }
@@ -89,6 +91,7 @@
 
 .button--success {
   background-color: var(--success-color);
+  border: 0;
   color: var(--secondary-color);
 }
 .button--success:hover {
@@ -98,6 +101,7 @@
 
 .button--info {
   background-color: var(--info-color);
+  border: 0;
   color: var(--secondary-color);
 }
 .button--info:hover {
@@ -107,6 +111,7 @@
 
 .button--warning {
   background-color: var(--warning-color);
+  border: 0;
   color: var(--secondary-color);
 }
 .button--warning:hover {
@@ -116,6 +121,7 @@
 
 .button--danger {
   background-color: var(--danger-color);
+  border: 0;
   color: var(--secondary-color);
 }
 .button--danger:hover {

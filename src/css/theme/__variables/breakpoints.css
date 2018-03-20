@@ -1,3 +1,4 @@
 @custom-media --small only screen and (min-width: 768px);
 @custom-media --medium only screen and (min-width: 992px);
 @custom-media --large only screen and (min-width: 1200px);
+@custom-media --xlarge only screen and (min-width: 1600px);
